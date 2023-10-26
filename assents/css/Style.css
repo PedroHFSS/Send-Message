@@ -1,0 +1,41 @@
+
+:root{
+
+    /* Gray */
+     --color-gray-50: #eeeeee ;
+     --color-gray-100: #c0c0c0;
+     --color-gray-200: #797979;
+ 
+     --color-gradient: linear-gradient(90deg, var(--color-gray-50), var(--color-gray-100), var(--color-gray-200));
+ }
+ 
+
+.body {
+    background: var(--color-gradient);
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    color: #454545;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;  
+}
+
+
+.box {
+    background-color: white;
+    height: 350px;
+    width: 800px;
+    text-align: justify;
+    color: #454545;
+    margin-top: 130px;
+    font-size: 30px;
+}
